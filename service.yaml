@@ -3,11 +3,9 @@ kind: Service
 metadata:
   name: ecommerce-service
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: ecommerce
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 3000 
-      nodePort: 30007
+    - port: 80
+      targetPort: 3000   
