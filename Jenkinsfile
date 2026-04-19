@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 environment {
     DEPLOY_REPO = "https://github.com/manjukolkar/CD-Project.git"
     BRANCH = "main"
@@ -36,6 +35,5 @@ stages {
         }
     }
 }
-```
 
 }
