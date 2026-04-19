@@ -4,7 +4,7 @@ metadata:
   name: ecommerce-ingress
 spec:
   rules:
-  - host: devops.duckdns.org   
+  - host: projectdevops.duckdns.org   
     http:
       paths:
       - path: /
